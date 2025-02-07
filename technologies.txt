@@ -1,0 +1,31 @@
+JavaScript:
+- NodeJS
+- MqttJS
+- ExpressJS
+- MongooseJS
+- packacges:
+  - cors
+  - dotenv
+
+
+Arduino Nano:
+- C/C++
+
+nodeMCU esp32:
+C/C++
+- libraries:
+  - <PubSubClient.h>
+  - <WiFi.h>
+  - library for voltage sensor(not on this part yet)
+  - library for current sensor(not on this part yet)
+
+Database:
+- MongoDb(free tier)
+
+Raspberrypi 4:
+- mosquitto
+- pm2
+- nodejs
+- raspAp
+- JavaScript
+- npm
