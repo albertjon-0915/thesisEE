@@ -1,7 +1,7 @@
 const conn = {
     host: 'raspberrypi.local',
     port: 9001,
-    api: 'http://localhost:3000/api' // TODO: Change this to mongoDB url
+    api: 'mongoDB url here'
 }
 
 const sendData = (method, payload) => {
@@ -21,7 +21,7 @@ const sendData = (method, payload) => {
         sendData(method, payload);
     })
     .catch(error => {
-        console.log('error sending data, trying again')
+        console.log(error || 'error sending data, trying again')
         sendData(method, payload)
     });
 }
